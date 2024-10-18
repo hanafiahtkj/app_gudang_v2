@@ -1,0 +1,50 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+#app {
+    width: 100%;
+}
+
+.group-invalid-feedback .selectr-selected {
+    border-color: #ef4d56!important;
+}
+
+body[data-layout=horizontal] .topbar .brand {
+    width: 160px !important;
+    margin-left: 16px;
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_paginate {
+    text-align: right;
+}
+
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_info {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    justify-content: flex-end !important;
+}
+
+table.dataTable.table-striped>tbody>tr.odd>* {
+    box-shadow: inset 0 0 0 9999px var(--bs-gray-200);
+}
+
+table.dataTable .btn-icon {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+table.dataTable .btn {
+    width: 75px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.selectr-selected {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.015625rem;
+}
